@@ -1,3 +1,27 @@
 .fotos {
-	justify-content: center;
+	margin-left: 5rem;
+	margin-top: 3rem;
+}
+
+h5 {
+	text-align: center;
+}
+.container {
+	margin-top: 3em;
+}
+button {
+	margin-left: 1em;
+	background-color: #007FFF;
+	color: white;
+	padding: 8px 10px; 
+	border-radius: 8px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.4s;
+}
+button:hover {
+	background-color: white;
+	color: black;
+}
+#images {
+	margin-top: 1.5em;
 }
