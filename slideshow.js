@@ -31,7 +31,7 @@ let index = 0;
 function goForward(array) {
 	index = index+1;
 	index = index % array.length
-	console.log(array[index])
+	//console.log(array[index])
 	description.innerText = array[index].description;
 	img.src=array[index].link;
 }
@@ -41,7 +41,8 @@ function goBackward(array) {
 	if (index<0) {
 		index = array.length-1
 	}
-	console.log(array[index])
+	//console.log(array[index])
+	description.innerText = array[index].description;
 	img.src=array[index].link
 }
 
